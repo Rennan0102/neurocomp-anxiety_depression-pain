@@ -1,0 +1,12 @@
+Feature_Category,Classifier,Condition,Num_Features,Accuracy,AUC_ROC,F1_Score
+Somente Potência Delta e Teta,Linear SVM,Eyes Closed,5,0.2286,0.148,0.069
+Somente Biomarcadores Delta,Linear SVM,Eyes Closed,1,0.4571,0.3421,0.0
+Somente Conectividade Global Beta,Linear SVM,Eyes Closed,1,0.4571,0.0921,0.0
+Somente Biomarcadores Delta,Linear SVM,Eyes Closed,23,0.2857,0.2895,0.2424
+Somente Biomarcadores Teta,Linear SVM,Eyes Closed,23,0.2571,0.2533,0.1333
+Biomarcadores Delta e Teta,Linear SVM,Eyes Closed,46,0.2,0.227,0.0667
+Delta e Teta (RFE + SVM),Linear SVM,Eyes Closed,5,0.2286,0.148,0.0
+Somente Potência Relativa Delta,Linear SVM,Eyes Closed,2,0.3714,0.4046,0.3125
+Somente Potência Relativa Alfa,Linear SVM,Eyes Closed,2,0.5429,0.5329,0.5294
+Somente Potência Relativa Delta e Alfa,Linear SVM,Eyes Closed,4,0.4571,0.4145,0.3448
+Todas as Features Combinadas,Linear SVM,Eyes Closed,5,0.2857,0.1382,0.2424
